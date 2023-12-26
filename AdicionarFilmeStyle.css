@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono";
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: hsl(0, 0%, 0%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.container {
+    margin-bottom: 5%;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+.subtitle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.filme-btn {
+    border: none;
+    border-radius: 0.5em;
+    color: rgba(128, 128, 128, 0.450);
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 35%;
+}
+
+.add-filme-btn {
+    background-color: red;
+    border: none;
+    border-radius: 1em;
+    height: 50px;
+    color: white;
+    width: 25%;
+}
+
+.add-filme-btn>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+#moviesList{
+    background-color: white;
+    background-image: url("https://t2.tudocdn.net/687837?w=824&h=494");
+    border-radius: .7em;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    width: 40%;
+    height: 13em;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#moviesList>a{
+    box-shadow: inset 0 0 10px 10px red;
+}
+
+#moviesList:hover{
+    border-radius: 0%;
+    border: .2em solid white;
+    cursor: pointer;
+}
+
+footer, .socialMedia{
+    font-family: "Roboto Mono";
+    color: white;
+    margin-top: 10em;
+    margin-bottom: 2%;
+}
+
+.socialMedia {
+    color: white;
+    text-decoration: none;
+}
+
+.socialMedia:hover{
+    color: #42321C;
+    font-weight: bolder;
+}

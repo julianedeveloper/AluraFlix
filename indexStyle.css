@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-movies {
+  margin-left: 30%;
+  text-align: center;
+}
+
+#movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 60%;
+
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.movie-image {
+  width: auto;
+  /* Defina a largura desejada */
+  height: auto;
+  /* Mantenha a proporção da imagem */
+  margin: 4px;
+  /* Adicione margem entre as imagens */
+  border: 2px solid #ccc;
+  /* Adicione uma borda */
+  border-radius: 10px;
+  /* Adicione borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Adicione uma sombra */
+  cursor: poin;
+
+}
+
+/* Exemplo de estilização específica para uma imagem com a classe movie-2 */
+.movie-2 {
+  filter: grayscale(70%);
+}
+
+.movie-image:hover {
+  border: 4px solid white;
+  border-radius: 0;
+  width: 25%;
+}
+
+.btn-addMovie {
+  border: none;
+  border-radius: 1em;
+  height: 50px;
+  color: white;
+  width: 25%;
+  margin: auto;
+}
+
+.btn-addMovie>a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
